@@ -1,12 +1,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "BigNumber/BigNumber.h"
-#include "EllipticCurves/ElipticCurve.h"
+
+#include "Demo/Demo.h"
 
 int main() {
-	BigNumber a ("16", "17");
-	(a+a).printBigNumber();
-	system("PAUSE");
+	Demo d("17");
+	d.start();
 	return 0;
 }
